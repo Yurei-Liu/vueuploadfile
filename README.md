@@ -54,4 +54,4 @@
 | fileTypeOptions  |      檔案類別列表      |
 | fileName         |        檔案名稱        |
 
-<!-- See [Configuration Reference](https://cli.vuejs.org/config/). -->
+See [Demo Page](https://yurei-liu.github.io/vueuploadfile/).
