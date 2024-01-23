@@ -1,10 +1,22 @@
 {
   "name": "vueuploadfile",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.4",
+  "main": "dist/VueUploadFile.common.js",
+  "private": false,
+  "author": "Areis <Liu_Areis@syscom.com.tw>",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*"
+  ],
+  "keywords": [
+    "upload file",
+    "上傳檔案"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name VueUploadFile ./src/components/index.js",
+    "build:doc": "vue-cli-service build ./src/main.js --dest docs --mode development",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
