@@ -1,6 +1,6 @@
 {
   "name": "vueuploadfile",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "dist/VueUploadFile.common.js",
   "private": false,
   "author": "Areis <Liu_Areis@syscom.com.tw>",
